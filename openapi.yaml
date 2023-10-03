@@ -1,0 +1,24 @@
+openapi: '3.0.2'
+info:
+  title: Backend API
+  version: '1.0.0'
+paths:
+  /greeting:
+    get:
+      summary: Greeting
+      description: Greeting
+      operationId: greeting
+      parameters:
+        - name: name
+          in: query
+          description: Name
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: string
