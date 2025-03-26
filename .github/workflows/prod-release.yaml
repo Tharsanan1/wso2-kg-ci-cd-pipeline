@@ -21,7 +21,7 @@ jobs:
         with:
           ref: main
           path: api-bases
-      - name: Checkout dev repository
+      - name: Checkout prod repository
         uses: actions/checkout@v4
         with:
           ref: prod
@@ -39,7 +39,7 @@ jobs:
           kapp version
       - name: Run API Deployment for ${{ github.event.inputs.apiName }} ${{ github.event.inputs.apiVersion }}
         run: |
-          cd dev/${{ github.event.inputs.apiName }}/${{ github.event.inputs.apiVersion }}
+          cd prod/${{ github.event.inputs.apiName }}/${{ github.event.inputs.apiVersion }}
           appName=$(echo ${{ github.event.inputs.apiName }}-${{ github.event.inputs.apiVersion }}|md5sum| cut -d ' ' -f 1)
           echo "----------------------------"
           echo ""
