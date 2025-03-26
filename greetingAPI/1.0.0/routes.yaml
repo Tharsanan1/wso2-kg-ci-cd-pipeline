@@ -5,4 +5,4 @@ metadata:
   name: "f7996dce4ac15e2af0f8ee14546c4f72988eddae-production-httproute-1"
 spec:
   hostnames:
-  - "dev.gw.wso2.com"
+  - "dev.gw.example.com"
