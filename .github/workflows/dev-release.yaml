@@ -41,4 +41,18 @@ jobs:
         run: |
           cd dev/${{ github.event.inputs.apiName }}/${{ github.event.inputs.apiVersion }}
           appName=$(echo ${{ github.event.inputs.apiName }}-${{ github.event.inputs.apiVersion }}|md5sum| cut -d ' ' -f 1)
-          kapp -y deploy -a $appName -f <(kustomize build .) -n apk-dev --labels version=${{ github.event.inputs.apiVersion }}
+          echo "----------------------------"
+          echo ""
+          echo ""
+          echo ""
+          echo "Deploying resources"
+
+          kustomize build .
+          echo ""
+          echo ""
+          echo ""
+          echo "----------------------------"
+          echo ""
+          echo ""
+          echo ""
+          kapp -y deploy -a $appName -f <(kustomize build .) --labels version=${{ github.event.inputs.apiVersion }}
