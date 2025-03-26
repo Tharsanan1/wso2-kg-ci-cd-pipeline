@@ -1,4 +1,4 @@
-name: Release DEV API.
+name: Release Prod API.
 on:
   workflow_dispatch: 
     inputs:
