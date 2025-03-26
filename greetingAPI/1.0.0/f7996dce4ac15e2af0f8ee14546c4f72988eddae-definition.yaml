@@ -1,0 +1,12 @@
+---
+kind: "ConfigMap"
+apiVersion: "v1"
+metadata:
+  name: "f7996dce4ac15e2af0f8ee14546c4f72988eddae-definition"
+  labels:
+    api-name: "5c296e241ef56a5a40aaa473bfd2613954c9446d"
+    api-version: "983b34771fb7185d04c9603559c9e46f4b70496d"
+    organization: "7505d64a54e061b7acd54ccd58b49dc43500b635"
+    managed-by: "apk"
+binaryData:
+  definition: "H4sIAAAAAAAA/+1VwW7bMAz9lUDbqdjiNN2hyG2HHIIN2LCgp6EHxWYSFbKlUnS3LMi/j6QSu1mzbC12nC+WRPKR75GWtyZEaGx0ZmKuhqPhpXkzMK5ZBjPZGnLkgQ3TOvqwAZgDPrgS3n+eidcDYHKh0cDLd2bHR4kd+NRMvm5Ni55Na6I4KQrYI7xNGWJyPboeCUgFqUQXKQPNNX5w8+Wj2d0qXtmio40CVrC0rSde36oxWlonKbND190KSGu3K6nDdJnL0BAG7wGNRDNttJJ2VnFiDpp2IIqNtgY6cGl4w16uyurw8r4F3MgO4b51CAxC2ILUTBsVbRmwFgf4zrgV9PZyDbXVEjdRHBOha1Zmp6QQUgxNylTGo5G8jjXayzA4eEoO4QaN8rYxelcqs+IuScT2aUqLaLV6R1BrqtcISza8KspQMyyDpSKHpeKgDJcoz9m+qLlriCDHkLSwPzP79ME8C73YHlazaqep2he0HirX9f73re8zdSMg83d2ApLjIDiagaX16eQQOG7giutjmwyOpXx2Nf5Xc3FRXByPwt93/HxL9CP2LNjzpc9x/8V/ufhq7zH6JLqcPvoM91TD4g5KUqlRmkEus2KJpSVPLiV2zE04ZWEN3KqxWYNTDsl6y9dkb2vaevGL0FVoFz6TfcR1LixyaR3jnoRtaT1WFB++qZN025UuX4FsDeh+aGE33W8o8X+IINGQ9TI6BiyABOdrbfcTglRb/AsHAAA="
