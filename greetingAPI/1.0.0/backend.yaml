@@ -5,5 +5,5 @@ metadata:
   name: "backend-10b8dc6a7cec156849c604f68ed77be4156bcb79-api"
 spec:
   services:
-  - host: "backendservice.backend-stage.svc.cluster.local"
-    port: 9090
+  - host: "employee-service.stage.svc.cluster.local"
+    port: 8080
