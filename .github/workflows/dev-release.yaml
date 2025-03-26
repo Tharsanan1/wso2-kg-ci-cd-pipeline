@@ -30,7 +30,7 @@ jobs:
         uses: azure/k8s-set-context@v1
         with:
           method: kubeconfig
-          kubeconfig: ${{ secrets.KUBE_CONFIG }}
+          kubeconfig: ${{ secrets.KUBE_CONFIG_DEV }}
       - name: install kapp
         run: |
           wget -O- https://carvel.dev/install.sh > install.sh
