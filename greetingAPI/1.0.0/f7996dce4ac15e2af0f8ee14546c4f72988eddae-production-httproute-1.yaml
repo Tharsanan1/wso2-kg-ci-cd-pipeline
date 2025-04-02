@@ -30,6 +30,21 @@ spec:
   - matches:
     - path:
         type: "RegularExpression"
+        value: "/test"
+      method: "GET"
+    filters:
+    - type: "URLRewrite"
+      urlRewrite:
+        path:
+          type: "ReplaceFullPath"
+          replaceFullPath: "/employees"
+    backendRefs:
+    - group: "dp.wso2.com"
+      kind: "Backend"
+      name: "backend-10b8dc6a7cec156849c604f68ed77be4156bcb79-api"
+  - matches:
+    - path:
+        type: "RegularExpression"
         value: "/employee"
       method: "POST"
     filters:
